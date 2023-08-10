@@ -38,3 +38,9 @@ In the next step we would like you to implement a simple Invocable Apex Action t
 Finishing these tasks should take about 2-3 hours, but we are all about **'quality > speed'**, so it's better to deliver a clean MVP and leave some TODOs open.
 
 Try to produce something that is at least minimally functional. Part of the exercise is to see what you prioritize first when you have a limited amount of time. For any unfinished tasks, please do add `TODO` comments to your code with a short explanation. You will be given an opportunity later to go into more detail and explain how you would go about finishing those tasks.
+
+### TODO
+There are a four possibilities to write Asynchronous Apex: using @future methods, batch, queueable Apex and
+Scheduler. I think the queueable Apex is most appropriate for this Task, because we need to wait for a result from callout,
+for building a resulting message to Flow. This Solution will allow us to test the callout, if i's really ready and can
+return us a expected answer.
